@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 28, 2018, 11:47:51 PM
+    Author     : Malmi
+*/
+
+body{
+
+	background-image:url("http://www.tokkoro.com/picsup/3099423-background-image_beautiful_blur_bright_dandelion_delicate_digital-photo-montage_environment_field_flora_flower_garden_grass_green_growth_hayfield_ladybug_lake_landscape_lawn_leaves_meadow_mural_n.jpg");
+	background-position: center;
+ 
+
+}
+
+header{
+  background:black;
+  color: white;
+  padding: 8px 0px 6px 40px;
+  height: 90px; 
+  border-radius: 10px;
+  
+
+}
+.row{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}

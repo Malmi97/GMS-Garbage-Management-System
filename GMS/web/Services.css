@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 28, 2018, 11:51:47 PM
+    Author     : Malmi
+*/
+
+body{
+	margin: 0px;
+	background-color:#ffffcc;
+}
+header{
+	background:black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 90px; 
+	margin-top: 5px;
+	border-radius: 10px;
+	}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.column1 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    background-image:url(https://st2.depositphotos.com/3255601/11755/i/950/depositphotos_117554824-stock-photo-blur-dirty-garbage-bags.jpg);
+    border-spacing: 10px;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 300px;
+}
+.column2 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    background-image:url(http://ruowenh.com/wp-content/uploads/2015/12/nature-background.jpg);
+   margin-left: 30px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+     height: 300px;
+ } 
+
+
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row1{
+	margin-left: 0px;
+	margin-right: 0px;  
+    
+}
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  
+}
+.row2{
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+

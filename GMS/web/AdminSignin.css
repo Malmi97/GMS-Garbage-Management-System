@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 29, 2018, 12:42:39 AM
+    Author     : Malmi
+*/
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(http://www.andersontownship.org/Portals/andersontownship/Images/News/tree-planting.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+
+}
+header{
+	background:black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 90px; 
+	margin-top: 5px;
+	border-radius: 10px;
+	}
+.loginbox{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 550px;
+	height: 460px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+	font-weight: bold;
+	color: white;
+	margin-top: 100px;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.loginbox input[type="text"],
+.loginbox input[type="password"],
+.loginbox select
+{
+	border:none;
+	border-bottom: 1px solid black;
+	background:transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+
+}
+/*.loginbox input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 40px;
+	color: black;
+	font-size: 16px;
+}*/
+.loginbox input[type="submit"]{
+	cursor: pointer;
+	border-radius: 15px;
+	width: 100px;
+	height: 40px;
+	color: white;
+
+}
+.loginbox input[type="submit"]:hover{
+	background:#B7F747;
+	color: white;
+}
+
+::placeholder{
+	color: rgba(255,255,255,.6);
+}
+form{
+	font-size: 20px;
+}
